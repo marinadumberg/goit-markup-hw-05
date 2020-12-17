@@ -656,7 +656,8 @@ img {
   overflow: hidden;
 }
 
-.gallery-list:hover .overlay {
+.gallery-list:hover .overlay,
+.gallery-list:focus .overlay {
   transform: translateY(0);
   opacity: 1;
 }
